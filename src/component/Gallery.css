@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-image: url("../photos/gallery-banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.gallery-page {
+	padding: 2.5% 18%;
+	text-align: center;
+	font-size: 55px;
+	text-shadow: -2px 2px 3px thistle;
+	color: rgb(255, 255, 255);
+}
+.gallery-p1 {
+	font-size: 25px;
+	margin-bottom: 13px;
+}
+.third-page-gallery {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.third-page-div {
+	background-color: rgba(238, 238, 238, 0.897);
+	box-shadow: -5px 6px 4px rgba(0, 0, 0, 0.719);
+	border: 4px solid rgba(238, 238, 238, 0);
+	border-radius: 10px;
+	width: 30%;
+	text-align: center;
+	font-size: 25px;
+	color: black;
+
+	margin-bottom: 20px;
+}
+.third-page-div:hover {
+	transform: scale(1.15);
+	border: 4px solid red;
+}
+.third-page-images {
+	width: 140px;
+}
